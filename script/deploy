@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh -t -t root@192.168.1.27 <<EOF
+ssh -t -t jenkins@192.168.1.27 <<EOF
   cd /var/www/html/app
   git pull
   npm install --production
